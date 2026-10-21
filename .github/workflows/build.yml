@@ -19,9 +19,4 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleAfatRelease
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: telegram-apk
-          path: TMessagesProj/build/outputs/apk/afat/release/*.apk
-
-          
+      - uses: actions/upload-a      
